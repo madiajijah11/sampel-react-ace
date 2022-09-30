@@ -1,20 +1,18 @@
 .App {
 	display: flex;
 	flex-direction: row;
-	align-items: center;
 	justify-content: center;
+	align-items: center;
 	height: 100vh;
-	margin: 0;
-	padding: 0;
 }
 
 .options {
-	align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 	justify-content: center;
-	padding: 10px;
-	background-color: gray;
 	font-weight: 700;
-	height: 100vh;
+	padding: 20px;
 }
 
 .editor {
@@ -22,7 +20,5 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding: 10px;
-	background-color: blueviolet;
-	height: 100vh;
+	padding: 20px;
 }
